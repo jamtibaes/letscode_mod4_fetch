@@ -11,19 +11,24 @@
   <body>
     <h1>Selecione o tipo de veículos</h1>
    <div>
-    <select id="selecao-veiculos">
-      <option value=""></option>
-      <option value="carros">Carro</option>
-      <option value="motos">Moto</option>
-      <option value="caminhoes">Caminhões</option>
-    </select>
+     <div class="coluna">
+      <label>Selecione o Tipo</label>
+      <select id="selecao-veiculos">
+        <option value=""></option>
+        <option value="carros">Carro</option>
+        <option value="motos">Moto</option>
+        <option value="caminhoes">Caminhões</option>
+      </select>
+     </div>
 
-    <select class="lista" id="veiculos"></select>
-
-    <div id="alerta"></div>
-
-   </div>
-
-    <script src="script.js"></script>
+    <div class="coluna">
+      <label>Selecione as Marcas</label>
+      <select class="lista" id="veiculos"></select>
+    </div>
+  </div>
+    
+  
+  <div id="alerta"></div>
+  <script src="script.js"></script>
   </body>
 </html>
